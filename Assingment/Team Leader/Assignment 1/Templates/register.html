@@ -1,0 +1,168 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration Page</title>
+<style>@charset "utf-8";
+/* CSS Document */
+body{
+ background-image: url('back.png');
+ background-repeat:no-repeat;
+ background-size:cover;
+ margin:0px;
+ padding:23px;
+}
+a{
+ text-decoration:none;
+}
+.container{
+ width:60%;
+ height:80%;
+ background-color:#ffffff;
+ border-style: outset;
+ position: absolute;
+ left:50%;
+ top:49%;
+ transform:translate(-50%,-50%);
+ box-shadow:2px 2px 30px rgba(66,57,238,0.2);
+ border-radius:20px;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ background-image: url('../images/bg.gif');
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+
+.text-container{
+position: relative;
+top:-100px; padding-bottom:-50px;
+width:50%;
+height:100%;
+display:flex;
+ flex-direction:column;
+ justify-content: center;
+ align-items: center;
+ margin-left:700px;
+ margin-bottom:-10px;
+ top:-40px
+
+}
+.heading{
+ font-family:calibri;
+ color:rgba(30,30,30,1);
+ align-items:center;
+left:80px ;
+}
+.text{
+ width:350px;
+ height:50px;
+ box-shadow:2px 6px 18px rgba(66,57,238,0.3);
+ border-radius: 30px;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ margin:10px;
+}
+.text input{
+ height:40px;
+ width:80%;
+ outline:none;
+ border:none;
+ justify-content: center;
+ font-size:14px;
+ margin:5px;
+}
+.text img{
+ margin-left:20px;
+}
+.conditions{
+ font-family:myriad pro;
+ color:#bbc1cb;
+ font-size:14px;
+}
+.trems{
+    top:20px ;
+    position: relative;
+	left:37px ;
+
+ display: flex;
+}
+.conditions a{
+ color:#7d22e3;
+ font-weight:500;
+}
+button{
+ width:200px;
+ height:40px;
+ outline:none;
+ border:none;
+ border-radius:20px;
+ background:linear-gradient(-30deg,#3b02ed,#8e2ae0 55%);
+ box-shadow:2px 6px 16px rgba(66,57,238,0.3);
+ color:#FFFFFF;
+ font-weight:600;
+ letter-spacing:1px;
+ font-weight: 13px;
+}
+button:active{
+ transform:scale(1.1);
+}
+.text-container p{
+ width:70%;
+ text-align: center;
+ font-family:arial;
+ font-size: 15px;
+ font-weight: 400;
+ line-height:0px;
+}
+  .toop{
+      position: relative;
+      top: 20px;
+	  left: 75px;
+  }
+  .check{
+      position: relative;
+      top: -8px;
+      left: -5px;
+  }
+ 
+</style>
+</head>
+<body>
+ <!--container---------------------->
+<div class="container" >
+ <!--sign-up-box-container--->
+<div class="sign-up">
+ <form action="/success" method="post">
+ <h1 class="heading">Welcome To Registration Page!!!</h1>
+ <hr>
+ <h4>Please fill this information to register</h4>
+ <!--name-box-->
+ <div class="text">
+ <img height="10px" src="email.png" />
+ <input placeholder="User name" type="text" name="username"/>
+ </div>
+ <!--Email-box-->
+ <div class="text">
+ <img height="15px" src="user.png" />
+ <input placeholder=" Example@gmail.com" type="email" name="email"" />
+ </div>
+ <!--Password-box-->
+ <div class="text">
+ <img height="20px" src="phone.png" />
+ <input placeholder="123-45-678" type="tel" name="phonenumber"/>
+ </div>
+ <div class="trems">
+    <input class="check" type="checkbox" required>
+    <p class="conditions">I read and agree to <a href="#">Terms & Conditions</a></p>
+ </div>
+ <br>
+ <!--button-->
+<div class="toop">
+	<button type="submit">REGISTER</button> 
+</div>
+</div>
+</form>
+ </div>
+</body>
+</html>
