@@ -11,7 +11,7 @@
 ## 🧑🏻‍🦰 TEAM MEMBERS
 Team leader: Nithya K S<br>
 Team member1: Sivaranjani R S<br>
-Team member2: Akshaya K S<br>
+Team member2: Akshaya K S<br> 
 Team member3: Haripriyadharshani V b<br>
 <hr>
 
